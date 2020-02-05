@@ -40,6 +40,18 @@ fields:
   config:
     maxSize: 250
   label: test
+- name: test_232
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: blog-posts
+      file: 
+      path: 
+  label: test 232
 pages:
 - content/posts/an-essay-on-walking.md
 - content/posts/ne-te-quaesiveris-extra.md
